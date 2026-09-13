@@ -16,6 +16,8 @@ body {
   min-height: 100vh;
   font-family: $font-family;
   background-color: $color-page-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
