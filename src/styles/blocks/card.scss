@@ -56,10 +56,13 @@
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 
   &__reviews {
+    position: relative;
+    top: 3px;
+
     color: $color-text-dark;
     font-size: 10px;
     line-height: 1.4;
